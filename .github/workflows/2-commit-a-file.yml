@@ -1,8 +1,8 @@
 name: Step 2 # Commit a file
 
-# Checks if the learner completed tasks for step 2.
-# - Triggers when the user makes a push to the branch 'my-first-branch' and modifies the file 'PROFILE.md'.
-# - If all checks pass, the workflow is disabled so it doesn't run again. As such, workflow status badge will change to green.
+# 学習者がステップ2のタスクを完了したかどうかを確認します。
+# - ユーザーがブランチ「my-first-branch」にプッシュし、ファイル「PROFILE.md」を変更したときにトリガーします。
+# - すべてのチェックが通過した場合、ワークフローは無効になっているため、再び実行されません。そのため、ワークフローステータスバッジはグリーンに変わります。
 
 on:
   push:
@@ -52,11 +52,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # START: Check practical exercise
+      # 開始：実践的な演習を確認してください
 
-      # Nothing to verify. Creating the PROFILE.md file is enough.
+      # 確認するものは何もありません。 PROFILE.mdファイルを作成するだけで十分です。
 
-      # END: Check practical exercise
+      # 終了：実践的な演習を確認してください
 
 
       - name: Build message - step finished

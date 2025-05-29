@@ -1,8 +1,8 @@
-name: Step 4 # Merge your pull request
+name: Step 4 # プルリクエストをマージします
 
-# Checks if the learner completed tasks for step 4.
-# - Triggers when the user merges the pull request.
-# - If all checks pass, the workflow is disabled so it doesn't run again. As such, workflow status badge will change to green.
+# 学習者がステップ4のタスクを完了したかどうかを確認します。
+# - ユーザーがプルリクエストをマージしたときにトリガーします。
+# - すべてのチェックが通過した場合、ワークフローは無効になっているため、再び実行されません。そのため、ワークフローステータスバッジはグリーンに変わります。
 
 on:
   pull_request:

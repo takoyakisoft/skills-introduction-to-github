@@ -1,33 +1,33 @@
-## Step 4: Merge your pull request
+## ステップ4：プルリクエストをマージする
 
-_Nicely done! :sunglasses:_
+_お見事です！ :sunglasses:_
 
-You successfully created a pull request. Now it's time to merge it!
+プルリクエストの作成に成功しましたね。いよいよマージの時です！
 
-**What is a merge?**: A _[merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge)_ adds the changes in your pull request and branch into the `main` branch. For more information about merges, see "[Merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)."
+**マージとは？**：_[マージ](https://docs.github.com/ja/get-started/quickstart/github-glossary#merge)_ とは、プルリクエストとブランチで行った変更を `main` ブランチに取り込むことです。マージに関する詳細は、「[プルリクエストのマージ](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)」を参照してください。
 
-![screenshot of green merge pull request button](https://github.com/user-attachments/assets/ce2f04cb-8a71-411f-8dc8-827a2bc23a30)
+![緑色の「プルリクエストをマージ」ボタンのスクリーンショット](https://github.com/user-attachments/assets/ce2f04cb-8a71-411f-8dc8-827a2bc23a30)
 
-### :keyboard: Activity: Merge the pull request
+### :keyboard: アクティビティ：プルリクエストをマージする
 
-1. Click **Merge pull request**.
+1.  **プルリクエストをマージ (Merge pull request)** をクリックします。
 
-   > **Note:** You may see workflows running on your new pull request, causing the merge button to be inactive. Just wait a moment for them to finish and the merge button will activate.
+    > **注：** 新しいプルリクエストでワークフローが実行中の場合、マージボタンが非アクティブになっていることがあります。ワークフローが完了するまでしばらく待つと、マージボタンがアクティブになります。
 
-2. Click **Confirm merge**.
+2.  **マージを確定 (Confirm merge)** をクリックします。
 
-   > **Tip:** Did you notice this dialog looks similar to adding a file? A merge is also a kind of commit!
+    > **ヒント：** このダイアログがファイルの追加時と似ていることにお気づきでしょうか？マージもコミットの一種なのです！
 
-3. Once your branch has been merged, you don't need it anymore. To delete this branch, click **Delete branch**.
+3.  ブランチがマージされると、そのブランチは不要になります。このブランチを削除するには、**ブランチを削除 (Delete branch)** をクリックします。
 
-   ![screenshot showing delete branch button](https://github.com/user-attachments/assets/0fda948e-14e0-4643-aa53-d9f9f364cddd)
+    ![「ブランチを削除」ボタンを示すスクリーンショット](https://github.com/user-attachments/assets/0fda948e-14e0-4643-aa53-d9f9f364cddd)
 
-4. Now that your work is merged, Mona will confirm and share some final review content. Nice work! 🎉
+4.  作業がマージされると、Monaが確認し、最終的なレビューコンテンツを共有します。お疲れ様でした！ 🎉
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>お困りですか？ 🤷</summary><br/>
 
-If you don't get feedback, here are some things to check:
-- Make sure you completed the previous lessons. If they haven't passed, the merge button will be gray.
+フィードバックがない場合は、以下の点を確認してください。
+- 前のレッスンを完了していることを確認してください。完了していない場合、マージボタンはグレー表示になります。
 
 </details>

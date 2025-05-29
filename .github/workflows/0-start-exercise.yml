@@ -1,4 +1,4 @@
-name: Step 0 # Start Exercise
+name: Step 0 # エクササイズを開始します
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
       - main
 
 permissions:
-  contents: write # Update Readme
-  actions: write # Disable/enable workflows
-  issues: write # Create issue and comment on issues
+  contents: write # readmeを更新します
+  actions: write # ワークフローを無効/有効にします
+  issues: write # 問題を作成し、問題についてコメントします
 
 
 env:

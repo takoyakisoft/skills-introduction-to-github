@@ -1,9 +1,9 @@
-name: Step 3 # Open a pull request
+name: Step 3 # プルリクエストを開きます
 
-# Checks if the learner completed tasks for step 3.
-# - Triggers when the user creates or edits the pull request.
-# - Checks the pull request title and description. Adds a PR comment.
-# - If all checks pass, the workflow is disabled so it doesn't run again. As such, workflow status badge will change to green.
+# 学習者がステップ3のタスクを完了したかどうかを確認します。
+# - ユーザーがプルリクエストを作成または編集したときにトリガーします。
+# - プルリクエストのタイトルと説明をチェックします。 PRコメントを追加します。
+# - すべてのチェックが通過した場合、ワークフローは無効になっているため、再び実行されません。そのため、ワークフローステータスバッジはグリーンに変わります。
 
 on:
   pull_request:
